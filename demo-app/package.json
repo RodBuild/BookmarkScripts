@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "acceptance": "npm run acceptance --prefix ./test/client"
   },
   "dependencies": {
     "next": "13.4.19",

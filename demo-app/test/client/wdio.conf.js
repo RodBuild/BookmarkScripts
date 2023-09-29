@@ -48,8 +48,8 @@ exports.config = {
   // Sauce Labs platform configurator - a great tool to configure your capabilities:
   // https://saucelabs.com/platform/platform-configurator
   //
-  user: 'oauth-rodrigo.edwin-96a65',
-  key: '46a82682-dfc2-4441-9710-387b0e593551',
+  user: process.env.SAUCE_USERNAME,
+  key: process.env.SAUCE_ACCESS_KEY,
   capabilities: [
     {
       browserName: 'chrome',
