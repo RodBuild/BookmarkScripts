@@ -12,4 +12,4 @@ jobs:
       - name: Install
         run: npm install
       - name: Test
-        run: npm run acceptance --prefix ./demo-app
+        run: npm run acceptance
